@@ -43,7 +43,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
         <slot />
       </article>
     </main>
-    <ReactIslandButton client:only='react' />
+    <ReactIslandButton client:visible='react' />
 
     <Footer />
   </body>
